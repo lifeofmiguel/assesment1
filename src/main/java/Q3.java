@@ -1,7 +1,8 @@
 public class Q3 {
     public static void main(String[] args) {
+        for(int number=1; number<=20; number++){
+            System.out.println(number);
+        }
 
     }
-    int[] numbers = {9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,};
-
 }

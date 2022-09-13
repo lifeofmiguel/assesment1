@@ -1,12 +1,16 @@
-import java.util.Arrays;
-import java.util.List;
-
-public class Main {
+class Main {
     public static void main(String[] args) {
-        System.out.println(char(alph));
+        char alph;
+
+        for(alph = 'A'; alph <= 'Z'; ++alph)
+            System.out.print(alph);
+
+
+        for(int number=9; number<=20; number++){
+            int i;
+           // if ((i <= 9));
+            System.out.println(number);
+        }
     }
-
-    char[] alph = {'a', 'b', 'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
-
 
 }
