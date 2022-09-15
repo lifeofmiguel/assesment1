@@ -1,13 +1,7 @@
+package question2;
+
 class Main {
     public static void main(String[] args) {
-//        char alph;
-//        for(alph = 'A'; alph <= 'Z'; ++alph)
-//            System.out.print(alph);
-//        for(int number=1; number<=20; number++){
-//            int i = 9;
-//           if ((i <= 9));
-//            System.out.println(number);
-//        }
 
         char[] alph = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 
@@ -22,6 +16,8 @@ class Main {
                 System.out.println(alph[indexPostion]);
             }
         }
+
+
     }
 
 }
