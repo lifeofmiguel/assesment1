@@ -22,8 +22,6 @@ class Main {
                 System.out.println(alph[indexPostion]);
             }
         }
-
-
     }
 
 }
